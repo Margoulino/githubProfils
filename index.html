@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Recherche de profils Github</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link href="https://bootswatch.com/4/simplex/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Github finder</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="searchContainer">
+          <br>
+          <h1>Recherchez des utilisateurs de Github</h1>
+          <p class="lead">Entrez un username pour obtenir des infos sur un profil et ses dépots</p>
+          <input type="text" name="searchUser" id="searchUser" class="form-control" placeholder="Github username...">
+        </div>
+        <br>
+        <div id="profile"></div>
+
+    </div>
+
+    <script
+			  src="https://code.jquery.com/jquery-3.2.1.js"
+			  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+			  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
